@@ -3,6 +3,12 @@ amiCO-Launcher
 
 amiCOLauncher - Android Launcher for Car and with big buttons.
 
+**Previews**
+---------------------
+
+
+![Preview](https://lh3.googleusercontent.com/-UCtwo3JMCI4/Umv1qIH3CLI/AAAAAAAAECs/9syT81yO_L0/w419-h696-no/Screenshot%2Bfrom%2B2013-10-26%2B18%3A59%3A31.png)
+
 **Changelog**
 
 Tested on:
