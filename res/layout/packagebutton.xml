@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/apk_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/button_style"
+        android:focusable="true"
+        >
+
+        <ImageView
+            android:id="@+id/apk_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+        />
+
+        <TextView
+            android:id="@+id/apk_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+	    android:text="@string/dummy_content"
+            android:gravity="center"
+            android:singleLine="true" />
+    </LinearLayout>
+</merge>

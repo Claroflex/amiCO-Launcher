@@ -1,0 +1,205 @@
+<RelativeLayout    
+  xmlns:android="http://schemas.android.com/apk/res/android"   
+  android:layout_width="fill_parent"   
+  android:layout_height="fill_parent"  >
+
+    <LinearLayout
+        android:id="@+id/screen_switch"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+       <LinearLayout
+            android:id="@+id/handle"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/yes"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/panel_button_normal"
+                android:contentDescription="@string/yes"
+                android:scaleType="centerInside" 
+                android:src="@drawable/dialer" />
+                        
+        	<ImageButton
+            	android:id="@+id/home"
+            	android:layout_width="fill_parent"
+            	android:layout_height="match_parent"
+            	android:layout_weight="1"
+            	android:background="@drawable/panel_button_normal"
+            	android:scaleType="centerInside"
+            	android:src="@drawable/panel_button_home" />
+            
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+            	android:background="@drawable/panel_button_normal"
+            	android:scaleType="centerInside"
+            	android:src="@drawable/ic_launcher_shortcut" />
+            
+        </LinearLayout>
+        
+        
+        
+        
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+           
+        <!-- TextView
+            android:id="@+id/apk_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+	    	android:text="@string/dummy_content"
+            android:gravity="center"
+            android:singleLine="true" / -->
+        
+        <FrameLayout
+            android:id="@+id/screen_one"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </FrameLayout>
+        
+        <FrameLayout
+            android:id="@+id/screen_one_one"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </FrameLayout>
+            
+            
+    <LinearLayout
+        android:id="@+id/screen_switch"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/navigation"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:background="@drawable/panel_button_selected"
+            android:cropToPadding="false"
+            android:scaleType="centerInside"
+            android:src="@drawable/panel_button_navigation" />
+
+        <ImageButton
+            android:id="@+id/net"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/panel_button_normal"
+            android:scaleType="centerInside"
+            android:src="@drawable/panel_button_net" />
+
+        <ImageButton
+            android:id="@+id/fun"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/panel_button_normal"
+            android:scaleType="centerInside"
+            android:src="@drawable/panel_button_fun" />
+
+
+        <ImageButton
+            android:id="@+id/settings"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/panel_button_normal"
+            android:scaleType="centerInside"
+            android:src="@drawable/panel_button_settings" />
+    </LinearLayout>
+
+  </LinearLayout>
+  
+ </LinearLayout>
+    
+    
+    <i2p.ranet.amico.MySlidingDrawer
+        android:id="@+id/slidingDrawer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:content="@+id/screen_two"
+        android:handle="@+id/handle"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/handle"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/menu"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+            	android:background="@drawable/panel_button_normal"
+            	android:scaleType="centerInside"
+            	android:src="@drawable/panel_button_settings" />
+            
+            <ImageButton
+                android:id="@+id/btnUp"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bnt_up_disable" />
+
+            <ImageButton
+                android:id="@+id/ctlHandle"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+            	android:scaleType="centerInside"
+            	android:src="@drawable/all_apps_button_normal" 
+                android:background="@drawable/bnt_menu_disable" />
+
+            <ImageButton
+                android:id="@+id/btnDown"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bnt_down_disable" />
+            
+            <ImageButton
+                android:id="@+id/wifi"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@drawable/panel_button_normal"
+            	android:scaleType="centerInside"
+                android:src="@drawable/settings_icon_wifi" />
+            
+            <ImageButton
+                android:id="@+id/gsm"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@drawable/panel_button_normal"
+            	android:scaleType="centerInside"
+            	android:src="@drawable/settings_icon_mobile" />
+            
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/screen_two"
+            android:layout_width="78dp"
+            android:layout_height="fill_parent"
+            android:background="#000" >
+
+        </FrameLayout>
+    </i2p.ranet.amico.MySlidingDrawer>    
+    
+</RelativeLayout>

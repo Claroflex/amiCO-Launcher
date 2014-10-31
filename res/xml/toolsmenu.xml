@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:key="key_tools_menu"
+        android:title="Tools Menu"
+        >
+       
+    <Preference android:key="key_get_log" 
+        android:title="Get logs" 
+    />
+
+    <Preference android:key="key_get_radio_log" 
+        android:title="Get radio log" 
+    />
+    
+    <Preference android:key="key_get_dmesg" 
+        android:title="Get dmesg" 
+    />    
+    <Preference android:key="key_get_packages_info" 
+        android:title="Get packages information" 
+    />
+    
+</PreferenceScreen>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:key="key_main_help"
+        android:title="@string/help"
+        >
+       
+    <Preference android:key="key_icon" 
+        android:layout="@layout/help_icon"
+     /> 
+	            
+    <Preference android:key="key_company" 
+        android:title="@string/company" 
+        android:summary="@string/company_name"
+        />
+    <Preference android:key="key_android_ver" 
+        android:title="@string/android_ver" 
+        />
+
+    <Preference android:key="key_fw_ver" 
+        android:title="@string/fw_ver" 
+        />
+
+    <Preference android:key="key_customer_ver" 
+        android:title="@string/customer_ver" 
+        />        
+<!--
+    <Preference android:key="key_app_name" 
+        android:title="@string/app_name2" 
+        android:summary="@string/app_name"
+        />
+    <Preference android:key="key_app_ver" 
+        android:title="@string/app_version" 
+        />        
+-->        
+</PreferenceScreen>
